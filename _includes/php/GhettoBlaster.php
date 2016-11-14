@@ -92,7 +92,7 @@ class GhettoBlaster {
 	 *
 	 */
 	function stop() {
-		shell_exec('killall mpg123');
+		shell_exec('pkill mpg123');
 		//shell_exec('killall say');
 		return "done";
 	}

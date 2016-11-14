@@ -16,8 +16,7 @@ logActions = true
 [paths]
 
 ; path to sound clips
-sfx = "/home/pi/soundboard-files/"
-
+sfx = "/home/pi/soundboard-files/sfx/"
 
 ; user array (if login is required)
 [users]
@@ -26,7 +25,6 @@ sfx = "/home/pi/soundboard-files/"
 ;username = "password"
 
 hello = "world"
-pete = "ginger"
 
 ;*/
 ;?>

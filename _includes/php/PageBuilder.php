@@ -21,7 +21,7 @@ class PageBuilder {
 		$return = '<!DOCTYPE html>
 <html>
 	<head>
-		<title>Ghetto Blaster</title>
+		<title>Exo Soundboard</title>
 		<meta charset="UTF-8" />
 		<link rel="stylesheet" href="./_includes/css/site/screen.css" />
 
@@ -58,7 +58,7 @@ class PageBuilder {
 	<body id="ghetto-blaster">
 		<div id="wrapper">
 			<header>
-				<h1>Ghetto Blaster</h1>
+				<h1>Exo Soundboard</h1>
 				<div id="say">
 					<form method="post" action="">
 						<fieldset>
