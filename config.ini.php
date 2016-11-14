@@ -6,7 +6,7 @@
 [options]
 
 ; require a login?
-doLogin = true
+doLogin = false
 
 ; log all interactions?
 logActions = true
@@ -16,7 +16,7 @@ logActions = true
 [paths]
 
 ; path to sound clips
-sfx = "/Users/pete/Dropbox/_me/ghetto-blaster/sfx/"
+sfx = "/home/pi/soundboard-files/"
 
 
 ; user array (if login is required)

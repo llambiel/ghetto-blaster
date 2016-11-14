@@ -82,7 +82,7 @@ class GhettoBlaster {
 	function play($play) {
 		$play = strip_tags($play);
 		$play = str_replace('/sfx', '', $play);
-		$cmd = 'afplay ' . $this->path . $play;
+		$cmd = 'mpg123 ' . $this->path . $play;
 		shell_exec($cmd);
 		return $cmd;
 	}
@@ -92,7 +92,7 @@ class GhettoBlaster {
 	 *
 	 */
 	function stop() {
-		shell_exec('killall afplay');
+		shell_exec('killall mpg123');
 		//shell_exec('killall say');
 		return "done";
 	}
